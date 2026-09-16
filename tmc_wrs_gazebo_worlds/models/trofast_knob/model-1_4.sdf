@@ -38,12 +38,10 @@
             </cylinder>
         </geometry>
         <material>
-          <script>
-            <ambient>1.0 1.0 1.0 1.0</ambient>
-            <diffuse>1.0 1.0 1.0 1.0</diffuse>
-            <specular>0.1 0.1 0.1 1.0</specular>
-            <shininess>1.0</shininess>
-          </script>
+          <ambient>1.0 1.0 1.0 1.0</ambient>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <shininess>1.0</shininess>
         </material>
       </visual>
       <visual name='knob_pole'>
