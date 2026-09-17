@@ -13,3 +13,9 @@ Changelog for package tmc_wrs_gazebo_launch
 * Change the build type to amant-python
 * Contributors: Tomoaki Fujino (Hibikino-Musashi@Home)
 
+3.0.0 (2026-09-16)
+-------------------
+* Support ROS 2 Jazzy / Gazebo Harmonic
+* Move common logic to launch/include/wrs_common.launch.py (world variant selection,
+  spawn_objects arguments: seed / per_category / obstacles / per_row)
+* Contributors: Ryohei Kobayashi

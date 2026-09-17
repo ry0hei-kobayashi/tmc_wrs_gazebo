@@ -30,6 +30,7 @@ POSSIBILITY OF SUCH DAMAGE.
 <sdf version='1.7' xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:arg name="fast_physics" default="true" />
   <xacro:arg name="highrtf" default="false" />
+  <xacro:arg name="trofast_knob" default="false" />
   <world name='default'>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>

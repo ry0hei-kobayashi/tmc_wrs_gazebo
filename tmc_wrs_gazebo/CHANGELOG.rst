@@ -11,3 +11,8 @@ Changelog for package tmc_wrs_gazebo
 -------------------
 * Support ROS2 Humble
 * Contributors: Tomoaki Fujino (Hibikino-Musashi@Home)
+
+3.0.0 (2026-09-16)
+-------------------
+* Support ROS 2 Jazzy / Gazebo Harmonic
+* Contributors: Ryohei Kobayashi

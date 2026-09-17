@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>tmc_wrs_gazebo_worlds</name>
-  <version>2.0.0</version>
+  <version>3.0.0</version>
   <description>World and model files for WRS Gazebo simulator</description>
 
   <maintainer email="xr-hsr-support@mail.toyota.co.jp">HSR Support</maintainer>
@@ -21,10 +21,16 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
-  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>ros_gz_interfaces</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
+    <!-- ros_gz_sim/gz_sim.launch.py reads gazebo_model_path and appends it to GZ_SIM_RESOURCE_PATH -->
     <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models" />
   </export>
 </package>

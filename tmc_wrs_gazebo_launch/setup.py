@@ -33,12 +33,14 @@ package_name = "tmc_wrs_gazebo_launch"
 
 setup(
     name=package_name,
-    version="2.0.0",
+    version="3.0.0",
     packages=find_packages(exclude=["test"]),
     data_files=[
         ("share/ament_index/resource_index/packages", ["resource/" + package_name]),
         (os.path.join("share", package_name), ["package.xml"]),
         (os.path.join("share", package_name, "launch"), glob.glob(os.path.join("launch", "*.py"))),
+        (os.path.join("share", package_name, "launch", "include"),
+         glob.glob(os.path.join("launch", "include", "*.py"))),
         (os.path.join("share", package_name, "config"), glob.glob(os.path.join("config", "*"))),
     ],
     install_requires=["launch", "setuptools"],
