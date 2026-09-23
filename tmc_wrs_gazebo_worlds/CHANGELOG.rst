@@ -11,3 +11,9 @@ Changelog for package tmc_wrs_gazebo_worlds
 -------------------
 * Support ROS2 Humble
 * Contributors: Tomoaki Fujino (Hibikino-Musashi@Home)
+
+3.0.0 (2026-09-16)
+-------------------
+* Support ROS 2 Jazzy / Gazebo Harmonic (gz-sim 8)
+* Replace gazebo_ros dependency with ros_gz_*, declare tf_transformations/scipy dependencies
+* Rename ForceTorque system plugin to gz-sim naming, declare trofast_knob xacro arg

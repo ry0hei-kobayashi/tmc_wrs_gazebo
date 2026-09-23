@@ -2,6 +2,10 @@
 # -*-encoding:UTF-8-*-
 
 # Auther: Tomoaki Fujino (Hibikino-Musashi@Home)
+#
+# NOTE: This launch file requires the ROS 2 package "hsrb_gazebo_task_evaluators",
+# which is not publicly available. It is kept for reference and is not used by
+# the other launch files in this package.
 
 import os
 
@@ -24,8 +28,8 @@ def declare_arguments():
             default_value=os.path.join(
                 get_package_share_directory("hsrb_wrs_gazebo_launch"),
                 "score/score",
-                description="Save path for score bag",
             ),
+            description="Save path for score bag",
         ),
     )
 

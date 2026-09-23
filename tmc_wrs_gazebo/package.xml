@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>tmc_wrs_gazebo</name>
-  <version>1.0.0</version>
+  <version>3.0.0</version>
   <description>tmc_wrs_gazebo meta package (ROS 2 style)</description>
 
   <maintainer email="xr-hsr-support@mail.toyota.co.jp">HSR Support</maintainer>
